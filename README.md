@@ -26,7 +26,7 @@ class Solution:
         """
         seen = {}
         
-        for index, num in enumerate(nums):
+        for index, num in enumerate(nums): # p
             rest = target - num
             
             if rest in seen:
